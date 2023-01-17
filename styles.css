@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+html {
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
