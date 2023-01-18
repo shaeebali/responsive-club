@@ -13,12 +13,9 @@ html {
 .bar {
   display: block;
   padding: 2rem 0;
-  margin-left: 0;
+  margin-left: -1.8rem;
 }
 
-.bar ul {
-  margin: 0;
-}
 
 .bar a {
   text-decoration: none;
@@ -30,6 +27,7 @@ html {
 
 .bar a:hover {
   color: red;
+  cursor: pointer;
 }
 
 .bar li {
@@ -41,11 +39,14 @@ html {
   height: 30rem;
   font-size: 2rem;
   text-align: center;
-  padding-top: 10rem;
+  line-height: 30rem;
+  background-color: cadetblue;
 }
 
 .summary {
   padding: 0 1rem;
+  display: block;
+  margin-top: 3.5rem;
 }
 
 .summary h2 {
@@ -71,6 +72,84 @@ html {
 }
 
 .photos img {
+  display: inline;
   width: 30%;
   margin: 1.5%;
+}
+
+.testimonial {
+  display: block;
+  height: 20rem;
+  padding: 0 1rem;
+  padding-top: 5.5rem;
+  /* background-color: cadetblue; */
+}
+
+.testimonial h1 {
+  color: green;
+}
+
+.testimonial p {
+  padding-top: 1rem;
+}
+
+.meetup {
+  display: block;
+}
+
+.meetup h1 {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 2em;
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.final-image-container {
+
+}
+
+.meetup img {
+  width: 50%;
+  margin: 1.5%;
+  margin: auto;
+  display: block;
+  padding-top: 3.5rem;
+}
+
+#subtitle-h1 {
+  height: 8rem;
+  line-height: 8rem;
+}
+
+.above-footer {
+  background-color: cadetblue;
+  font-size: 2rem;
+}
+
+.footer {
+  display: flex;
+  height: 5rem;
+  background-color: cadetblue;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.footer-two {
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+  padding-bottom: 1rem;
+  background-color: cadetblue;
 }
